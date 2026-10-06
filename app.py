@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-return jsonify(status="ok")
+return jsonify(status="hello devops")
 
 if __name__ == "__main__":
 from flask import Flask, jsonify
